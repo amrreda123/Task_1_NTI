@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131b2a;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #131b2a;
+    padding: 30px 40px;
+    position: relative;
+}
+
+.back-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #131b2a;
+    background-color: #c49a45;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #e0b455;
+}
+
+.logo {
+    color: #c49a45;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    color: #8c9bb4;
+    font-size: 18px;
+}
+
+.destinations-grid {
+    background-color: #4b6a9c;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    border: 1px solid #131b2a;
+}
+
+.card-text {
+    width: 50%;
+    padding: 20px;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    line-height: 1.5;
+}
+
+.card img {
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}

@@ -2,7 +2,7 @@
 
 Welcome to my Native PHP repository! This project contains all the practical codes, session notes, and assignments I completed during my Backend Development training. It documents my progression from basic PHP syntax to building functional, session-based web applications without a framework.
 
-## 📂 Repository Structure
+## 📂 Repository Structure  
 
 The repository is organized into two main categories: **Sessions** (lecture practices) and **Tasks** (assignments).
 
